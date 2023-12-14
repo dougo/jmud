@@ -475,7 +475,7 @@ With optional argument, autoconnect with login and password."
 ;;			    (concat "Password for " name ": "))))
 	     (proc (funcall (mud-world-get world 'start-process)
 			    name buf site port)))
-	(process-kill-without-query proc t)
+	(set-process-query-on-exit-flag proc t)
 	(if autoconnect
 	    (let ((filter (or (mud-connect-filter world)
 			      'mud-filter)))
