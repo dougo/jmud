@@ -1,0 +1,527 @@
+
+j-boom-obj.el,2677
+(defun boom-obj-rename-object-in-buffer 3,23
+(defun boom-or-concat 14,310
+(defvar boom-obj-object-expr 26,637
+(defvar boom-obj-vname-expr 27,698
+(defvar boom-obj-verb-expr 30,782
+(defvar boom-obj-verb-match-object 35,937
+(defvar boom-obj-verb-match-vname 36,975
+(defvar boom-obj-player-expr 38,1013
+(defvar boom-obj-owner-expr 39,1051
+(defvar boom-obj-owner-match-player 44,1187
+(defvar boom-obj-owner-match-object 45,1226
+(defvar boom-obj-flag-expr 47,1266
+(defvar boom-obj-object-line-expr 55,1420
+(defvar boom-obj-owner-line-expr 60,1570
+(defvar boom-obj-parent-line-expr 65,1715
+(defvar boom-obj-location-line-expr 68,1831
+(defvar boom-obj-verb-perms-expr 71,1953
+(defvar boom-obj-verb-args-expr72,1998
+(defvar boom-obj-verb-args-match-dobjspec 92,2520
+(defvar boom-obj-verb-args-match-prepspec 93,2565
+(defvar boom-obj-verb-args-match-iobjspec 94,2610
+(defvar boom-obj-verb-line-expr 96,2656
+(defvar boom-obj-verb-line-match-mark 105,2885
+(defvar boom-obj-verb-line-match-verb 106,2926
+(defvar boom-obj-verb-line-match-verb-object 107,2967
+(defvar boom-obj-verb-line-match-vname 108,3015
+(defvar boom-obj-verb-line-match-owner 109,3057
+(defvar boom-obj-verb-line-match-owner-player 110,3099
+(defvar boom-obj-verb-line-match-owner-object 111,3148
+(defvar boom-obj-verb-line-match-perms 112,3197
+(defvar boom-obj-verb-line-match-args 113,3239
+(defvar boom-obj-verb-line-match-dobjspec 114,3280
+(defvar boom-obj-verb-line-match-prepstr 115,3325
+(defvar boom-obj-verb-line-match-iobjspec 116,3369
+(defvar boom-obj-pname-expr 118,3415
+(defvar boom-obj-prop-expr 119,3491
+(defvar boom-obj-verb-or-prop-expr 125,3660
+(defvar boom-obj-mode-map 132,3852
+(defun boom-obj-quit 163,5507
+(defun boom-obj-kill-buffer 169,5687
+(defun boom-obj-place-point 174,5878
+(defconst boom-obj-marks 187,6349
+(defun boom-obj-mark-line 193,6494
+(defvar boom-obj-mark-override-table204,6795
+(defun boom-obj-mark-override 222,7157
+(defun boom-obj-rename 229,7374
+(defun boom-obj-find-name 262,8426
+(defun boom-obj-flag-deleted 274,8814
+(defun boom-obj-edit 275,8847
+(defun boom-obj-edit-other-window 276,8872
+(defun boom-obj-unflag 277,8910
+(defun boom-obj-send 278,8937
+(defun boom-obj-backup-unflag 279,8962
+(defun boom-obj-summary 280,8996
+(defun boom-obj-copy 281,9024
+(defun boom-obj-next-line 283,9050
+(defun boom-obj-previous-line 291,9296
+(defun boom-obj-goto-max 299,9540
+(defun boom-obj-goto-min 304,9665
+(defun boom-obj-end-of-buffer 309,9787
+(defun boom-obj-beginning-of-buffer 315,9933
+(defun boom-obj-revert-buffer 321,10086
+(defun boom-obj-chmod 322,10120
+(defun boom-obj-chargs 323,10146
+(defun boom-obj-chown 324,10173
+
+j-boom-tree.el,1143
+(defvar boom-tree-mode-map 4,56
+(defun boom-tree-mode 28,1091
+(defun boom-tree-objnum 38,1356
+(defun boom-tree-name 44,1484
+(defun boom-tree-parent 50,1615
+(defun boom-tree-jump-to-object 55,1713
+(defun boom-tree-next-visible-object 73,2229
+(defun boom-tree-previous-visible-object 79,2339
+(defun boom-tree-next-sibling 85,2454
+(defun boom-tree-get-next-sibling 98,2823
+(defun boom-tree-previous-sibling 111,3209
+(defun boom-tree-get-last-sibling 124,3587
+(defun boom-tree-up-level 137,3990
+(defun boom-tree-show-all 152,4477
+(defun boom-tree-flag-region 157,4619
+(defun boom-tree-hide-subtree 168,5010
+(defun boom-tree-flag-subtree 173,5134
+(defun boom-tree-end-of-subtree 179,5286
+(defun boom-tree-level 192,5625
+(defun boom-tree-next-object 201,5892
+(defun boom-tree-show-subtree 207,6097
+(defun boom-tree-show-children 212,6226
+(defun boom-tree-show-branches 213,6261
+(defun moo-get-boom-tree-node 215,6297
+(defun moo-fix-boom-tree-node 226,6729
+(defun moo-get-boom-tree-children 258,7857
+(defun moo-fix-boom-tree-children 268,8238
+(defun moo-get-boom-@chparent 280,8660
+(defun moo-fix-boom-@chparent 299,9281
+
+j-boom.el,26
+(defun boom-rename 8,135
+
+j-jupiter.el,272
+(defvar mud-jupiter-client-prog 4,30
+(defvar jupiter-filter-hook15,451
+(defvar jupiter-process 17,521
+(defconst jupiter-mooaudio 20,639
+(defun jupiter-filter 22,700
+(defun jupiter-set-room 41,1510
+(defun jupiter-set-channel 44,1590
+(defun jupiter-sentinel 53,1881
+
+j-mcp.el,4384
+(defvar mcp-message-regexp 6,65
+(defvar mcp-multifield-regexp 12,328
+(defvar mcp-end-regexp 18,569
+(defun auth-ok-p 22,739
+(defun mcp-handle-message 25,801
+(defvar mcp-keyval-regexp 44,1502
+(defun mcp-parse-keyvals 52,1797
+(defun mcp-remove-line 74,2438
+(defvar mcp-no-version 92,2919
+(defvar mcp-version-regexp 94,2948
+(defun mcp-read-version 96,3009
+(defun mcp-print-version 103,3243
+(defun mcp-version-<= 106,3337
+(defun mcp-version-min 111,3459
+(defun mcp-version-max 116,3538
+(defvar mcp-empty-version-range 127,3802
+(defun mcp-version-range-overlap 129,3840
+(defun mcp-package 142,4339
+(defun mcp-package-name 149,4622
+(defun mcp-package-parent 150,4674
+(defun mcp-package-version-range 151,4728
+(defun mcp-package-initfunc 152,4789
+(defun mcp-package-msgtypes 153,4845
+(defun mcp-package-cordtypes 154,4901
+(defvar mcp-root-package 156,4959
+(defun mcp-concat-hyphenated 158,4990
+(defun mcp-package-fullname 166,5115
+(defconst mcp-implemented-packages 173,5331
+(defun mcp-register-package 175,5372
+(defun mcp-lookup-package 194,6001
+(defun mcp-register-package-shortcut 202,6239
+(defun mcp-msgtype 221,6789
+(defun mcp-msgtype-name 223,6860
+(defun mcp-msgtype-function 224,6912
+(defun mcp-msgtype-args 225,6968
+(defun mcp-msgtype-fullname 227,7021
+(defvar mcp-msgtypes 233,7184
+(defvar mcp-unknown-msgtype235,7211
+(defun mcp-register-msgtype 240,7323
+(defun mcp-lookup-msgtype 247,7569
+(defun mcp-message 255,7719
+(defun mcp-message-type 257,7772
+(defun mcp-message-args 258,7824
+(defun mcp-message-get 260,7877
+(defun mcp-message-append 268,8083
+(defun mcp-message-check-args 276,8407
+(defun mcp-message-incomplete 284,8692
+(defun mcp-message-send 293,8978
+(defvar mcp-auth-key 300,9142
+(defvar mcp-running-version 301,9168
+(defvar mcp-running-packages 302,9212
+(defvar mcp-implemented-version-range304,9247
+(defun mcp-determine-version 307,9345
+(defun mcp-send-packages 316,9709
+(defun mcp-map-alist 322,9883
+(defun mcp-map-apply 327,10009
+(defun mcp-send 332,10118
+(defvar mcp-messages 367,11135
+(defun mcp-lookup-message 369,11162
+(defun mcp-handle-unfinished 379,11508
+(defun mcp-handle-multifield 382,11622
+(defun mcp-handle-end 387,11816
+(defun mcp-dispatch-message 392,11976
+(defun mcp-handle-mcp 401,12197
+(defvar mcp-mcp-msgtype430,13430
+(defvar mcp-mcp-package433,13509
+(defun mcp-send-negotiate 445,13752
+(defun mcp-handle-negotiate-can 458,14155
+(defun mcp-handle-negotiate-end 474,14773
+(defun mcp-cordtype 487,15057
+(defun mcp-cordtype-name 489,15171
+(defun mcp-cordtype-package 490,15226
+(defun mcp-cordtype-msgtypes 491,15284
+(defun mcp-cordtype-openfunc 492,15343
+(defun mcp-cordtype-closefunc 493,15402
+(defun mcp-cordtype-set-package 495,15463
+(defun mcp-cordtype-fullname 498,15544
+(defun mcp-cordtype-lookup-msgtype 502,15700
+(defvar mcp-cordtypes 511,16001
+(defun mcp-register-cordtype 513,16029
+(defun mcp-lookup-cordtype 524,16409
+(defun mcp-cord 533,16664
+(defun mcp-cord-type 535,16714
+(defun mcp-cord-id 536,16757
+(defun mcp-cord-state 537,16798
+(defun mcp-cordmsg 544,17031
+(defun mcp-cordmsg-type 546,17094
+(defun mcp-cordmsg-args 547,17146
+(defun mcp-cordmsg-cord 548,17198
+(defun mcp-cordmsg-send 550,17251
+(defvar mcp-cords 558,17498
+(defun mcp-cords-init 560,17522
+(defun mcp-lookup-cord 564,17607
+(defun mcp-handle-cord-open 572,17793
+(defun mcp-handle-cord-closed 580,18092
+(defun mcp-handle-cord 588,18348
+(defun mcp-send-cord 600,18687
+(defun mcp-cord-test-open 616,19104
+(defun mcp-cord-test-closed 619,19174
+(defun mcp-cord-test-handle 622,19246
+(defvar mcp-edit-reference 629,19403
+(defvar mcp-edit-type 630,19435
+(defun mcp-edit-handle-send 632,19463
+(defvar mcp-moo-mud-org-package654,20138
+(defvar mcp-edit-mode 670,20522
+(defvar mcp-edit-mode-target 672,20593
+(defun mcp-edit-mode 674,20628
+(defun mcp-edit-buffer-to-lines 690,21062
+(defun mcp-edit-send 705,21506
+(defvar mcp-edit-recover-buffers 716,21892
+(defun mcp-edit-abort 719,21990
+(defun mcp-edit-recover-last-buffer 735,22520
+(defun mcp-edit-send-and-destroy 740,22694
+(defun mcp-edit-retarget 746,22851
+(defvar mcp-edit-mode-keymap 753,23063
+(define-key mcp-edit-mode-keymap 755,23144
+(define-key mcp-edit-mode-keymap 756,23202
+(define-key mcp-edit-mode-keymap 757,23272
+(define-key mcp-edit-mode-keymap 758,23331
+(defun mcp-display-url-handle 774,23723
+
+j-moo-code.el,729
+(defconst moo-code-reserved-words22,941
+(define-prefix-command 'moo-code-extras-map)28,1154
+(defvar moo-code-mode-map40,1599
+(defmacro mud-perform-replace 54,2136
+(defvar mud-mode-syntax-table 66,2490
+(defun moo-code-mode 69,2567
+(defun moo-code-return 96,3421
+(defun moo-code-for 102,3581
+(defun moo-code-fork 114,3985
+(defun moo-code-while 118,4110
+(defun moo-code-if 122,4243
+(defun moo-code-insert-statement 126,4370
+(defun moo-code-sin 139,4681
+(defun moo-code-else 147,4922
+(defun moo-code-elseif 157,5162
+(defun moo-code-indent-line 164,5332
+(defun moo-code-commentify 191,6129
+(defun moo-code-uncommentify 211,6618
+(defun moo-code-insert-quoted-end 232,7154
+(defun moo-code-check-semi-colons 236,7232
+
+j-moo-gopher.el,66
+(defvar *moo-gopher-buffer* 7,180
+(defun moo-check-gopher 9,214
+
+j-moo-sswg.el,36
+(defun moo-source-word-square 3,54
+
+j-moo.el,2096
+(defconst moo-object-regexp 13,356
+(defvar moo-mode-hook 15,396
+(defvar moo-use-@program 16,429
+(defun moo-define-keys 18,503
+(defun moo-get-from-@display 33,1119
+(defun moo-strip-verb-name 53,1949
+(defun moo-strip-asterisk 60,2152
+(defvar moo-macro-mode-map 67,2405
+(defvar moo-@display-map70,2540
+(defvar moo-@upload-obj-map76,2708
+(defvar moo-rmail-map82,2880
+(defvar moo-mode-map 88,3045
+(defun moo-macro-mode 91,3170
+(defun moo-mode 94,3234
+(defun moo-whisper 97,3286
+(defun moo-@paste-kill 103,3435
+(defun moo-explode-list 110,3721
+(defun moo-implode-list 131,4477
+(defun moo-unquote-message 152,5216
+(defun moo-finish-long-result 161,5408
+(defun moo-get-help-text 165,5537
+(defun moo-get-@display 172,5784
+(defun moo-get-@download 184,6218
+(defun moo-get-from-@download 194,6582
+(defun moo-fix-@display 210,6895
+(defun moo-fix-@upload-obj 215,7000
+(defun moo-fix-@upload-verb 224,7284
+(defun moo-get-property 228,7363
+(defun moo-get-description 234,7588
+(defun moo-rmail 239,7769
+(defun moo-fix-rmail 255,8324
+(defun moo-@display-identify-object 259,8402
+(defun moo-rmail-identify-folder 274,9012
+(defun moo-get-rmail-message 289,9452
+(defun moo-fix-property 309,10011
+(defun moo-get-@edit 323,10303
+(defun moo-fix-@program 328,10458
+(defun moo-get-verb 332,10533
+(defun moo-get-@list 337,10688
+(defun moo-fix-@list 344,10922
+(defvar moo-filter-hook386,12461
+(defvar moo-object-buffers 390,12529
+(defvar moo-verb-buffers 392,12613
+(defvar moo-property-buffers 394,12691
+(defun moo-make-object 397,12781
+(defun moo-object-world 400,12931
+(defun moo-object-number 403,13018
+(defun moo-make-verb 407,13109
+(defun moo-verb-object 413,13370
+(defun moo-verb-names 418,13538
+(defun moo-verb-args 423,13668
+(defun moo-object-has-buffer 429,13798
+(defun moo-object-buffer 434,14070
+(defun moo-verb-has-buffer 438,14192
+(defun moo-verb-buffer 443,14450
+(defun moo-property-has-buffer 447,14562
+(defun moo-property-buffer 452,14847
+(defun moo-have-something 456,14980
+(defun moo-unhave-something 462,15321
+(defun moo-which-buffer 467,15572
+
+j-mud-get.el,605
+(defvar mud-prefix-id 1,0
+(defun mud-get-text 4,126
+(defun mud-fix-unknown 11,370
+(defun mud-get-long-result 25,646
+(defun mud-do-fetch 31,853
+(defun mud-do-fetch 41,1211
+(defun mud-make-fetch-buffer 53,1639
+(defun mud-output-here 66,1993
+(defun mud-redirect-output 72,2187
+(defvar mud-redirector 180,5806
+(defun mud-find-buffer 184,5949
+(defun mud-redirect-local-edit 198,6589
+(defvar mud-buffer-info 236,7858
+(defun mud-mark-association 238,7938
+(defun mud-remove-association 250,8351
+(defun mud-buffer-has 261,8661
+(defun mud-buffer-unhas 266,8871
+(defun mud-info-for-buffer 270,9017
+
+j-mud-goehring.el,299
+(defconst mud-goehring-type-separator1,0
+(defconst mud-goehring-description-line5,179
+(defun mud-goehring-name 8,420
+(defun mud-goehring-site 10,465
+(defun mud-goehring-numsite 12,510
+(defun mud-goehring-port 14,558
+(defun mud-goehring-notes 16,627
+(defun mud-translate-goehring-list 19,674
+
+j-mud-history.el,544
+(defun mud-make-history 2,30
+(defun mud-decr-mod 10,348
+(defun mud-history-insert 15,415
+(defun mud-history-empty-p 26,793
+(defun mud-history-ref 29,872
+(defvar mud-input-history-size 43,1251
+(defvar mud-input-history 46,1355
+(defvar mud-input-index 48,1387
+(defun mud-initialize-input-history 50,1415
+(defun mud-remember-input 56,1636
+(defun mud-previous-command 59,1721
+(defun mud-next-command 63,1801
+(defun mud-browse-input-history 67,1878
+(defun mud-match-input-history 85,2504
+(defun mud-previous-matching-command 115,3566
+
+j-mud-macros.el,1387
+(defvar mud-macro-commands-file 4,38
+(defvar mud-delete-macro-window 5,88
+(defvar mud-macro-commands-alist 7,177
+(defvar mud-global-trigger-list 11,387
+(defvar mud-recoverable-macros 12,452
+(defvar mud-recover-macro-list 14,553
+(defvar mud-expansion-macro-name 17,745
+(defvar mud-exploded 18,807
+(defvar mud-auto-implode 21,939
+(defvar mud-macro-modes 23,1032
+(defun mud-macro-field-from-text 26,1123
+(defun mud-macro-enlist 31,1232
+(defun mud-macro-field-to-text 49,1837
+(defun mud-macro-delist 57,1989
+(defun mud-macro-delist-all 67,2320
+(defun mud-macro-print-alist 75,2595
+(defun mud-macro-delist-world-triggers 82,2799
+(defun mud-macro-delist-type-triggers 93,3205
+(defun mud-macro-delist-global-triggers 104,3599
+(defun mud-trigger-field 111,3783
+(defun mud-macro-sendable 122,4160
+(defun mud-check-triggers 139,4613
+(defun mud-check-triggers-on-line 144,4791
+(defvar mud-macro-expansion-mode-map174,5809
+(defun mud-macro-expansion-mode 189,6439
+(defun mud-macro-label 208,7089
+(defun mud-macro-abort 254,8613
+(defun mud-macro-send 270,9138
+(defun mud-macro-send-slowly 290,9826
+(defun mud-macro-send-and-destroy 305,10348
+(defun mud-recover-last-macro 311,10512
+(defun mud-retarget 316,10674
+(defun mud-load-macro-commands 330,11149
+(defun mud-store-macro-commands 353,11831
+(defun mud-remove-macro 372,12506
+(defun mud-macro-command 378,12740
+
+j-mud-tf.el,111
+(defun mud-tf-report-syntax-error 1,0
+(defun mud-tf-world-pattern 7,186
+(defun mud-translate-tf-file 16,426
+
+j-mud-upload.el,149
+(defun mud-upload-file 4,52
+(defun mud-upload-file-straight 14,678
+(defun mud-upload-file-as-lambda-mail 19,854
+(defun mud-upload-buffer 25,1157
+
+j-mud-worlds.el,1510
+(defvar mud-world-file 3,32
+(defvar mud-max-worlds 7,185
+(defvar mud-worlds 9,266
+(defvar mud-default-world 13,404
+(defun mud-copy-here-from 15,460
+(defvar mud-world-file-dates 25,737
+(defun mud-file-write-date 27,772
+(defun mud-load-worlds 30,841
+(defun mud-check-world-file 45,1407
+(defun mud-read-pairs 59,1842
+(defun mud-subtype 67,2073
+(defun mud-blank-to-nil 84,2674
+(defun mud-nil-to-blank 89,2755
+(defun mud-add-world 92,2807
+(defun mud-request-world-name 113,3561
+(defun mud-fixer 124,3871
+(defun mud-self-gag-list 131,4070
+(defun mud-self-gagp 133,4170
+(defun mud-login 142,4382
+(defun mud-password 144,4435
+(defun mud-connect-command 146,4494
+(defun mud-connect-filter 148,4567
+(defun mud-name 150,4638
+(defun mud-site 152,4681
+(defun mud-port 154,4732
+(defun mud-page-regexp 156,4783
+(defun mud-pending-output 158,4848
+(defun mud-process 160,4909
+(defun mud-trigger-list 162,4980
+(defun mud-output-buffer 164,5075
+(defun mud-prompt 166,5168
+(defun mud-filters 168,5247
+(defun mud-startup-hook 170,5328
+(defun mud-macro-mode 172,5419
+(defun mud-fill-input 174,5506
+(defun mud-world 177,5652
+(defun mud-new-world 180,5710
+(defun mud-parent 183,5767
+(defun mud-world-change-parent 186,5817
+(defmacro mud-pair 189,5912
+(defun mud-world-set-pair 192,5985
+(defun mud-world-set-pairs 195,6062
+(defun mud-world-get-string 200,6193
+(defun mud-world-get 203,6288
+(defun mud-world-get-all 210,6460
+(defun mud-world-get-splice 216,6625
+(defun mud-splice 226,6884
+
+j-mud.el,1406
+(defvar mud-do-activity-alert 45,2054
+(defconst mud-last-active 47,2176
+(defun mud-activity-alert 53,2361
+(defun mud-clear-activity-alert 63,2826
+(defvar mud-here 68,2961
+(defvar mud-accept-reconnects 71,3054
+(defvar mud-use-entire-window 76,3290
+(defvar mud-use-suppress-all-input 79,3407
+(defvar mud-fill-prefix 81,3522
+(defmacro mud-match 83,3631
+(defmacro mud-match-string 88,3775
+(defvar mud-reconnect-regexp91,3882
+(defconst mud-new-connectionp 95,4068
+(defun mud-check-reconnect 98,4149
+(defun mud-fill-lines 126,5079
+(defmacro mud-perform-replace 142,5494
+(defun mud-redirect-lines 154,5848
+(defun mud-filter 160,6082
+(defun mud-display-buffer 187,7170
+(defun mud-string-to-list 191,7251
+(defun mud-recenter 200,7542
+(defun mud-close-extra-connections 207,7736
+(defun mud-eobp 227,8436
+(defun mud-send 236,8545
+(defun mud-find-input 271,9539
+(defun mud-beginning-of-line 278,9701
+(defun mud-send-kill 285,9916
+(defun mud-send-kill-prefix 293,10179
+(defun mud-quit 306,10606
+(defvar mud-mode-syntax-table 314,10836
+(defun mud-mouse-paste 317,10925
+(defvar mud-interactive-mode-map329,11363
+(defun mud-interactive-mode 349,12193
+(defun mud-send-string 445,15417
+(defun mud-send-here 449,15531
+(defun mud 453,15672
+(defun mud-read-password 489,16969
+(defun mud-shell-buffer 533,18684
+(defun mud-make-shell 547,19297
+(defun mud-cleanup-extra-processes 565,19886
+
+j-tiny.el,165
+(defvar tinymud-filter-hook20,647
+(defvar tinymud-connection-error-string26,865
+(defvar tinymud-macro-commands-file 29,975
+(defun tinymud-connect-filter 34,1104
+
+moo-say-emote.el,26
+(defun moo-say-emote 1,0
+
+prefix.el,188
+(defun surround-region 2,39
+(defun prefix-region-with-string 18,730
+(defun prefix-region-with-quote 27,1124
+(defun prefix-region-with-pose 32,1269
+(defun prefix-region-with-> 37,1410

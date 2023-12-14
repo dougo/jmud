@@ -1,0 +1,11 @@
+My advice:
+  Put all the .el files in a directory ~/emacs/jmud
+  Put the fragment-of-.emacs in your ~/.emacs file somewhere
+  Put the world-file in ~/.jmud_worlds
+
+You might not like all of the stuff, particularly the part about where
+to put the .el files--if you choose another location, fix the
+reference to it in the .emacs fragment.
+
+Note that the world file is grotesquely out of date, and serves
+primarily as a mediocre syntax example at this point.

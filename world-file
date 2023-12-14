@@ -1,0 +1,851 @@
+(mud-subtype "MUDWHO server" "global")
+
+(mud-add-world "AFserv" "MUDWHO server"
+               nil nil
+               "pa.itd.com" 6889
+               nil)
+
+(mud-add-world "Amber" "MUDWHO server"
+               nil nil
+               "amber.ecst.csuchico.edu" 6889
+               nil)
+
+(mud-add-world "Moebius" "MUDWHO server"
+               nil nil
+               "moebius.math.okstate.edu" 6889
+               nil)
+
+(mud-add-world "Nova" "MUDWHO server"
+               nil nil
+               "nova.tat.physik.uni-tuebingen.de" 6889
+               nil)
+
+(mud-subtype "AberMUD" "global")
+
+(mud-add-world "Abermuck I" "AberMUD"
+               nil nil
+               "fert1.fe.psu.edu" 6969
+               nil)
+
+(mud-add-world "Askerbulkum" "AberMUD"
+               nil nil
+               "minsk.docs.uu.se" 6715
+               nil)
+
+(mud-add-world "DIRT" "AberMUD"
+               nil nil
+               "ulrik.uio.no" 6715
+               nil)
+
+(mud-add-world "Dragon" "AberMUD"
+               nil nil
+               "messua.informatik.rwth-aachen.de" 6715
+               nil)
+
+(mud-add-world "Eddie aber Alles" "AberMUD"
+               nil nil
+               "eddie.ee.vt.edu" 5000
+               nil)
+
+(mud-add-world "LadLand" "AberMUD"
+               nil nil
+               "lesti.hut.fi" 6715
+               nil)
+
+(mud-add-world "Longhorn" "AberMUD"
+               nil nil
+               "lisboa.cs.utexas.edu" 6715
+               nil)
+
+(mud-add-world "Mustang MUD" "AberMUD"
+               nil nil
+               "mustang.dell.com" 6715
+               nil)
+
+(mud-add-world "Temple" "AberMUD"
+               nil nil
+               "bigboy.cis.temple.edu" 6715
+               nil)
+
+(mud-add-world "Twilight Zone" "AberMUD"
+               nil nil
+               "jordan.pc.cc.cmu.edu" 6715
+               nil)
+
+(mud-add-world "Tyrann" "AberMUD"
+               nil nil
+               "muselab.ac.runet.edu" 6715
+               nil)
+
+(mud-add-world "WolfMud" "AberMUD"
+               nil nil
+               "b.cs.wvu.wvnet.edu" 6969
+               nil)
+
+(mud-subtype "DikuMUD" "global")
+
+(mud-add-world "(unnamed)" "DikuMUD"
+               nil nil
+               "muselab.ac.runet.edu" 4123
+               nil)
+
+(mud-add-world "AbyssMUD" "DikuMUD"
+               nil nil
+               "matsci2.uncwil.edu" 4000
+               nil)
+
+(mud-add-world "Adversary" "DikuMUD"
+               nil nil
+               "bigboy.cis.temple.edu" 4000
+               nil)
+
+(mud-add-world "Albanian DikuMUD" "DikuMUD"
+               nil nil
+               "fred.indstate.edu" 2150
+               nil)
+
+(mud-add-world "AlexMUD" "DikuMUD"
+               nil nil
+               "alex.stacken.kth.se" 4000
+               nil)
+
+(mud-add-world "Apathy" "DikuMUD"
+               nil nil
+               "apathy.nmsu.edu" 5003
+               nil)
+
+(mud-add-world "Austin MUD" "DikuMUD"
+               nil nil
+               "austin.daimi.aau.dk" 4000
+               nil)
+
+(mud-add-world "Caltech DIKU" "DikuMUD"
+               nil nil
+               "eltanin.caltech.edu" 4000
+               nil)
+
+(mud-add-world "CircleMUD" "DikuMUD"
+               nil nil
+               "circle.cs.jhu.edu" 4000
+               nil)
+
+(mud-add-world "Clarkson Diku" "DikuMUD"
+               nil nil
+               "gb.dorm.clarkson.edu" 4000
+               nil)
+
+(mud-add-world "Copper Diku" "DikuMUD"
+               nil nil
+               "copper.denver.colorado.edu" 4000
+               nil)
+
+(mud-add-world "Dark Shadow" "DikuMUD"
+               nil nil
+               "atlantic.mps.ohio.edu" 6666
+               nil)
+
+(mud-add-world "Davis Diku" "DikuMUD"
+               nil nil
+               "fajita.ucdavis.edu" 3000
+               nil)
+
+(mud-add-world "Epic" "DikuMUD"
+               nil nil
+               "**" 9000
+               nil)
+
+(mud-add-world "Eros" "DikuMUD"
+               nil nil
+               "??" 0
+               nil)
+
+(mud-add-world "Gods of War" "DikuMUD"
+               nil nil
+               "elof.iit.edu" 4000
+               nil)
+
+(mud-add-world "Grimne Diku" "DikuMUD"
+               nil nil
+               "flipper.pvv.unit.no" 4000
+               nil)
+
+(mud-add-world "Hell's Heart" "DikuMUD"
+               nil nil
+               "mccool.cbi.msstate.edu" 4000
+               nil)
+
+(mud-add-world "HypeNet" "DikuMUD"
+               nil nil
+               "??" 4000
+               nil)
+
+(mud-add-world "KAOS" "DikuMUD"
+               nil nil
+               "icaen8.icaen.uiowa.edu" 4000
+               nil)
+
+(mud-add-world "Lankhmar" "DikuMUD"
+               nil nil
+               "kafka.ws.cc.cmu.edu" 4000
+               nil)
+
+(mud-add-world "MUME" "DikuMUD"
+               nil nil
+               "lbdsun4.epfl.ch" 4000
+               nil)
+
+(mud-add-world "NetherMUD" "DikuMUD"
+               nil nil
+               "ws9471.ws.cc.cmu.edu" 4000
+               nil)
+
+(mud-add-world "Northwind" "DikuMUD"
+               nil nil
+               "??" 4000
+               nil)
+
+(mud-add-world "QUEST!" "DikuMUD"
+               nil nil
+               "faraday.ee.utulsa.edu" 4000
+               nil)
+
+(mud-add-world "Sequent II" "DikuMUD"
+               nil nil
+               "jordan.pc.cc.cmu.edu" 1992
+               nil)
+
+(mud-add-world "SolMUD" "DikuMUD"
+               nil nil
+               "sol.acs.unt.edu" 4000
+               nil)
+
+(mud-add-world "Test Epic" "DikuMUD"
+               nil nil
+               "mccool.cbi.msstate.edu" 9000
+               nil)
+
+(mud-add-world "VieMUD" "DikuMUD"
+               nil nil
+               "d25.wuwu-wien.ac.at" 4000
+               nil)
+
+(mud-add-world "Wiley Mud" "DikuMUD"
+               nil nil
+               "coyote.cs.wmich.edu" 2345
+               nil)
+
+(mud-subtype "DUM" "global")
+
+(mud-add-world "CanDUM II" "DUM"
+               nil nil
+               "cheetah.vlsi.waterloo.edu" 2001
+               nil)
+
+(mud-add-world "DUM II" "DUM"
+               nil nil
+               "legolas.cs.umu.se" 2001
+               nil)
+
+(mud-subtype "LPmud" "global")
+
+(mud-add-world "5th Dimension" "LPmud"
+               nil nil
+               "gauss.ifm.liu.se" 3000
+               nil)
+
+(mud-add-world "Aegolius Acadicus" "LPmud"
+               nil nil
+               "vyonous.kennesaw.edu" 2000
+               nil)
+
+(mud-add-world "Aegolius Acadicus 3.1.2" "LPmud"
+               nil nil
+               "vyonous.kennesaw.edu" 3000
+               nil)
+
+(mud-add-world "After Hours" "LPmud"
+               nil nil
+               "genoa.cit.cornell.edu" 2000
+               nil)
+
+(mud-add-world "Akropolis" "LPmud"
+               nil nil
+               "??" 6666
+               nil)
+
+(mud-add-world "Allanite" "LPmud"
+               nil nil
+               "mutt.cs.jmu.edu" 2222
+               nil)
+
+(mud-add-world "Ancient Anguish" "LPmud"
+               nil nil
+               "rudolf.ethz.ch" 2000
+               nil)
+
+(mud-add-world "BatMUD" "LPmud"
+               nil nil
+               "batmud.jyu.fijyu.fi" 2001
+               nil)
+
+(mud-add-world "CyberWorld" "LPmud"
+               nil nil
+               "newview.etsu.edu" 3000
+               nil)
+
+(mud-add-world "Darker Realms" "LPmud"
+               nil nil
+               "worf.tamu.edu" 2000
+               nil)
+
+(mud-add-world "Deeper Trouble" "LPmud"
+               nil nil
+               "alk.iesd.auc.dk" 4242
+               nil)
+
+(mud-add-world "DiscWorld II" "LPmud"
+               nil nil
+               "mesun2.wustl.edu" 2000
+               nil)
+
+(mud-add-world "Dragon's Den" "LPmud"
+               nil nil
+               "??" 2222
+               nil)
+
+(mud-add-world "DragonFire" "LPmud"
+               nil nil
+               "??" 3000
+               nil)
+
+(mud-add-world "Finnegan's Wake" "LPmud"
+               nil nil
+               "maxheadroom.agps.lanl.gov" 2112
+               nil)
+
+(mud-add-world "Frontier" "LPmud"
+               nil nil
+               "blish.cc.umanitoba.ca" 9165
+               nil)
+
+(mud-add-world "GateWay" "LPmud"
+               nil nil
+               "secum.cs.dal.ca" 6969
+               nil)
+
+(mud-add-world "Genesis" "LPmud"
+               nil nil
+               "milou.cd.chalmers.se" 2000
+               nil)
+
+(mud-add-world "Genocide" "LPmud"
+               nil nil
+               "pip.shsu.edu" 2222
+               nil)
+
+(mud-add-world "Highlands" "LPmud"
+               nil nil
+               "pip.shsu.edu" 2000
+               nil)
+
+(mud-add-world "Igor" "LPmud"
+               nil nil
+               "epsilon.me.chalmers.se" 1701
+               nil)
+
+(mud-add-world "ImperialMUD" "LPmud"
+               nil nil
+               "**" 0
+               nil)
+
+(mud-add-world "Ivory Tower" "LPmud"
+               nil nil
+               "brownedu" 2000
+               nil)
+
+(mud-add-world "KREMLIN" "LPmud"
+               nil nil
+               "ub.d.umn.edu" 6969
+               nil)
+
+(mud-add-world "KoBra" "LPmud"
+               nil nil
+               "duteca4.et.tudelft.nl" 8888
+               nil)
+
+(mud-add-world "LPSwat" "LPmud"
+               nil nil
+               "aviator.cc.iastate.edu" 2020
+               nil)
+
+(mud-add-world "Loch Ness" "LPmud"
+               nil nil
+               "rudolf.ethz.ch" 2222
+               nil)
+
+(mud-add-world "Lost Souls" "LPmud"
+               nil nil
+               "tom.imb.uh.edu" 3000
+               nil)
+
+(mud-add-world "LurkMud" "LPmud"
+               nil nil
+               "romulus.ehs.uiuc.edu" 2345
+               nil)
+
+(mud-add-world "LustyMud" "LPmud"
+               nil nil
+               "lusty.tamu.edu" 2000
+               nil)
+
+(mud-add-world "MacMud" "LPmud"
+               nil nil
+               "??" 3000
+               nil)
+
+(mud-add-world "Marches of Antan" "LPmud"
+               nil nil
+               "chema.ucsd.edu" 3000
+               nil)
+
+(mud-add-world "Mythos Mud" "LPmud"
+               nil nil
+               "mango.ucs.indiana.edu" 3555
+               nil)
+
+(mud-add-world "NANVAENT" "LPmud"
+               nil nil
+               "saddle.ccsun.strath.ac.uk" 3000
+               nil)
+
+(mud-add-world "Nameless" "LPmud"
+               nil nil
+               "complex.is" 2000
+               nil)
+
+(mud-add-world "Nanny" "LPmud"
+               nil nil
+               "mud.lysator.liu.selysator.liu.se" 2000
+               nil)
+
+(mud-add-world "NeXT" "LPmud"
+               nil nil
+               "odysseus.uncg.edu" 2000
+               nil)
+
+(mud-add-world "Nemesis" "LPmud"
+               nil nil
+               "dszenger9.informatik.tu-muenchen.de" 2000
+               nil)
+
+(mud-add-world "Nightfall" "LPmud"
+               nil nil
+               "nova.tat.physik.uni-tuebingen.de" 4242
+               nil)
+
+(mud-add-world "Nightmare" "LPmud"
+               nil nil
+               "orlith.bates.edu" 2999
+               nil)
+
+(mud-add-world "Nirvana IV" "LPmud"
+               nil nil
+               "elof.iit.edu" 3500
+               nil)
+
+(mud-add-world "Nuage" "LPmud"
+               nil nil
+               "fifi.univ" 2000
+               nil)
+
+(mud-add-world "Overdrive" "LPmud"
+               nil nil
+               "im1.lcs.mit.edu" 5195
+               nil)
+
+(mud-add-world "PaderMUD" "LPmud"
+               nil nil
+               "athene.uni" 4242
+               nil)
+
+(mud-add-world "Phoenix" "LPmud"
+               nil nil
+               "orlith.bates.edu" 3000
+               nil)
+
+(mud-add-world "PixieMud" "LPmud"
+               nil nil
+               "elof.iit.edu" 6969
+               nil)
+
+(mud-add-world "QUOVADIS" "LPmud"
+               nil nil
+               "disun29.epfl.ch" 2345
+               nil)
+
+(mud-add-world "Quantum Mud" "LPmud"
+               nil nil
+               "**" 3333
+               nil)
+
+(mud-add-world "Regenesis" "LPmud"
+               nil nil
+               "robin.lysator.liu.se" 7475
+               nil)
+
+(mud-add-world "Revenge of the End of the Line" "LPmud"
+               nil nil
+               "mud.stanford.edu" 2010
+               nil)
+
+(mud-add-world "Star Raiders" "LPmud"
+               nil nil
+               "ub.d.umn.edu" 2000
+               nil)
+
+(mud-add-world "StickMUD" "LPmud"
+               nil nil
+               "stickmud.jyu.fipalikka.jyu.fi" 7680
+               nil)
+
+(mud-add-world "SvenskMUD" "LPmud"
+               nil nil
+               "svmud.lysator.liu.selysator.liu.se" 2043
+               nil)
+
+(mud-add-world "TAPPMud" "LPmud"
+               nil nil
+               "faui00e.informatik.uni-erlangen.de" 6510
+               nil)
+
+(mud-add-world "Terrapin" "LPmud"
+               nil nil
+               "bessel.umd.edu" 2000
+               nil)
+
+(mud-add-world "The Holy Mission" "LPmud"
+               nil nil
+               "alijku05.edvz.uniac.at" 4242
+               nil)
+
+(mud-add-world "The Mud Institute" "LPmud"
+               nil nil
+               "dogstar.colorado.edu" 5555
+               nil)
+
+(mud-add-world "Top Mud" "LPmud"
+               nil nil
+               "??" 0
+               nil)
+
+(mud-add-world "TubMUD" "LPmud"
+               nil nil
+               "morgen.cs.tu" 7680
+               nil)
+
+(mud-add-world "Valhalla" "LPmud"
+               nil nil
+               "valhalla.spies.com" 2444
+               nil)
+
+(mud-add-world "VikingMUD" "LPmud"
+               nil nil
+               "swix.ifi.unit.no" 2001
+               nil)
+
+(mud-add-world "WanderingMUD" "LPmud"
+               nil nil
+               "rockedu" 1234
+               nil)
+
+(mud-add-world "World of Mizar" "LPmud"
+               nil nil
+               "delial.docs.uu.se" 9000
+               nil)
+
+(mud-subtype "mage" "global")
+
+(mud-add-world "SynthMAGE" "mage"
+               nil nil
+               "synth.dorm.clarkson.edu" 4242
+               nil)
+
+(mud-subtype "MOO" "TinyMUD")
+
+(mud-add-world "Lambda MOO" "MOO"
+               nil nil
+               "lambda.parc.xerox.com" 8888
+               nil)
+
+(mud-subtype "TinyMUCK" "TinyMUD")
+
+(mud-add-world "AfterFive" "TinyMUCK"
+               nil nil
+               "pa.itd.com" 9999
+               nil)
+
+(mud-add-world "Burning Metal" "TinyMUCK"
+               nil nil
+               "traci.ecst.csuchico.edu" 8088
+               nil)
+
+(mud-add-world "FurryMUCK" "TinyMUCK"
+               nil nil
+               "highlandpark.rest.ri.cmu.edu" 2323
+               nil)
+
+(mud-add-world "HoloMuck" "TinyMUCK"
+               nil nil
+               "collatz.rh.uchicago.edu" 5757
+               nil)
+
+(mud-add-world "Pegasus" "TinyMUCK"
+               nil nil
+               "l" 2001
+               nil)
+
+(mud-add-world "PythonMUCK" "TinyMUCK"
+               nil nil
+               "zeus.calpoly.edu" 4201
+               nil)
+
+(mud-add-world "QWest" "TinyMUCK"
+               nil nil
+               "glia.biostr.washington.edu" 9999
+               nil)
+
+(mud-add-world "Quartz Paradise" "TinyMUCK"
+               nil nil
+               "quartz.rutgers.edu" 9999
+               nil)
+
+(mud-add-world "Time Traveller" "TinyMUCK"
+               nil nil
+               "betz.biostr.washington.edu" 4096
+               nil)
+
+(mud-subtype "MUG" "global")
+
+(mud-add-world "UglyMUG" "MUG"
+               nil nil
+               "spec0.ee.man.ac.uk" 4201
+               nil)
+
+(mud-subtype "MURPE" "global")
+
+(mud-add-world "Cyclone MURPE" "MURPE"
+               nil nil
+               "oper.cc.iastate.edu" 4201
+               nil)
+
+(mud-add-world "DocMurpe" "MURPE"
+               nil nil
+               "**" 0
+               nil)
+
+(mud-subtype "TinyMUSE" "TinyMUSH")
+
+(mud-add-world "Fantasia" "TinyMUSE"
+               nil nil
+               "betz.biostr.washington.edu" 4201
+               nil)
+
+(mud-add-world "MicroMUSE" "TinyMUSE"
+               nil nil
+               "chezmoto.ai.mit.edu" 4201
+               nil)
+
+(mud-add-world "Rhostshyl" "TinyMUSE"
+               nil nil
+               "stealth.cit.cornell.edu" 4201
+               nil)
+
+(mud-add-world "StarfireMuse" "TinyMUSE"
+               nil nil
+               "agronomy.auburn.edu" 4201
+               nil)
+
+(mud-add-world "TOS TrekMuse" "TinyMUSE"
+               nil nil
+               "blazer.med.ucla.edu" 1701
+               nil)
+
+(mud-add-world "TrekMUSE" "TinyMUSE"
+               nil nil
+               "excalibur.mit.edu" 1701
+               nil)
+
+(mud-add-world "VegaMUSE" "TinyMUSE"
+               nil nil
+               "??" 0
+               nil)
+
+(mud-add-world "Xanth" "TinyMUSE"
+               nil nil
+               "icarus.weber.edu" 9098
+               nil)
+
+(mud-subtype "TinyMUSHe" "global")
+
+(mud-add-world "ApexMUD" "TinyMUSHe"
+               nil nil
+               "apex.ccs.yorku.ca" 4201
+               nil)
+
+(mud-add-world "Dungeon" "TinyMUSHe"
+               nil nil
+               "ra.info.sunyit.edu" 8888
+               nil)
+
+(mud-add-world "GaTrekMush" "TinyMUSHe"
+               nil nil
+               "foo.cad.gatech.edu" 1701
+               nil)
+
+(mud-add-world "Global MUSH" "TinyMUSHe"
+               nil nil
+               "workstation5.colby.edu" 4201
+               nil)
+
+(mud-add-world "ImageCastle" "TinyMUSHe"
+               nil nil
+               "wizard.etsu.edu" 4201
+               nil)
+
+(mud-add-world "PernMUSH" "TinyMUSHe"
+               nil nil
+               "gram.dell.com" 4201
+               nil)
+
+(mud-add-world "RiftMUSH" "TinyMUSHe"
+               nil nil
+               "**" 4201
+               nil)
+
+(mud-add-world "SouCon" "TinyMUSHe"
+               nil nil
+               "happy.cc.utexas.edu" 4201
+               nil)
+
+(mud-add-world "Spellbound" "TinyMUSHe"
+               nil nil
+               "bongo.cc.utexas.edu" 4201
+               nil)
+
+(mud-add-world "StingMUSH" "TinyMUSHe"
+               nil nil
+               "elf.etsu.edu" 1701
+               nil)
+
+(mud-add-world "The Belgariad" "TinyMUSHe"
+               nil nil
+               "csa.bu.edu" 4201
+               nil)
+
+(mud-add-world "TinyCWRU" "TinyMUSHe"
+               nil nil
+               "caisr2.caisr.cwru.edu" 4201
+               nil)
+
+(mud-add-world "TinyHORNS" "TinyMUSHe"
+               nil nil
+               "louie.cc.utexas.edu" 4201
+               nil)
+
+(mud-add-world "TinyTIM" "TinyMUSHe"
+               nil nil
+               "foof.dorm.clarkson.edu" 5440
+               nil)
+
+(mud-add-world "Twilight" "TinyMUSHe"
+               nil nil
+               "minos.nmt.edu" 4201
+               nil)
+
+(mud-add-world "Two Moons" "TinyMUSHe"
+               nil nil
+               "baldur.dell.com" 4201
+               nil)
+
+(mud-add-world "Zandalee" "TinyMUSHe"
+               nil nil
+               "tramp.cc.utexas.edu" 4567
+               nil)
+
+(mud-subtype "phoenix" "global")
+
+(mud-add-world "Phoenix Alpha" "phoenix"
+               nil nil
+               "hal.gnu.ai.mit.edu" 6715
+               nil)
+
+(mud-subtype "TeenyMUD" "TinyMUD")
+
+(mud-add-world "(EVIL!)Mud" "TeenyMUD"
+               nil nil
+               "fido.econ.arizona.edu" 4201
+               nil)
+
+(mud-subtype "TinyMUD" "global")
+
+(mud-add-world "DragonMUD" "TinyMUD"
+               nil nil
+               "ghost.cse.nau.edu" 4201
+               nil)
+
+(mud-subtype "UnterMUD" "TinyMUD")
+
+(mud-add-world "ChrisMUD" "UnterMUD"
+               nil nil
+               "hawkwind.utcs.utoronto.ca" 6600
+               nil)
+
+(mud-add-world "DreamScape" "UnterMUD"
+               nil nil
+               "moebius.math.okstate.edu" 6250
+               nil)
+
+(mud-add-world "Esotericism" "UnterMUD"
+               nil nil
+               "cook.brunel.ac.uk" 1234
+               nil)
+
+(mud-add-world "Islandia" "UnterMUD"
+               nil nil
+               "hawkwind.utcs.utoronto.ca" 2323
+               nil)
+
+(mud-add-world "RealWorld" "UnterMUD"
+               nil nil
+               "cook.brunel.ac.uk" 4201
+               nil)
+
+(mud-add-world "SludgeMud University" "UnterMUD"
+               nil nil
+               "unix1.cc.ysu.edu" 6565
+               nil)
+
+(mud-add-world "Sunmark" "UnterMUD"
+               nil nil
+               "moebius.math.okstate.edu" 6543
+               nil)
+
+(mud-add-world "WanderLand" "UnterMUD"
+               nil nil
+               "amber.ecst.csuchico.edu" 4201
+               nil)
+
+(mud-subtype "Visual MUD" "global")
+
+(mud-add-world "Flesh & Blood" "Visual MUD"
+               nil nil
+               "demeter.calpoly.edu" 6666
+               nil)
+
+(mud-subtype "YAMUD" "global")
+
+(mud-add-world "GooLand" "YAMUD"
+               nil nil
+               "toby.cis.uoguelph.ca" 6715
+               nil)
+
